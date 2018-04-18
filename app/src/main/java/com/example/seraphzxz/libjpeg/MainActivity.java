@@ -112,20 +112,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showR() {
-//        Glide.with(this)
-//                .load(FileUtils.FILE_PATH+"img.jpg")
-//                .centerCrop()
-//                .into(imageView);
+        Glide.with(this)
+                .load(FileUtils.FILE_PATH+"img.jpg")
+                .centerCrop()
+                .into(imageView);
         Log.e("LIB_JPEG","Raw size:" + new File(FileUtils.FILE_PATH + "img.jpg").length());
-
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                String md5 = FileUtils.getMD5(FileUtils.FILE_PATH+"img.jpeg");
-                Log.e("MD5","md5: " + md5);
-            }
-        }).start();
-
 
     }
 
