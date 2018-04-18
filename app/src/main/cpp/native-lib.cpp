@@ -413,18 +413,6 @@ Java_com_example_seraphzxz_libjpeg_utils_FileUtils_getMD5(JNIEnv *env, jclass ty
     return env->NewStringUTF(szMd5);
 }
 
-
-extern "C"
-JNIEXPORT jstring
-
-JNICALL
-Java_com_example_seraphzxz_libjpeg_MainActivity_stringFromJNI(
-        JNIEnv *env,
-        jobject /* this */) {
-    std::string hello = "Message from C++";
-    return env->NewStringUTF(hello.c_str());
-}
-
 const char *PASSWORD = "pw";
 long getFileSize(char* filePath);
 
