@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.seraphzxz.libjpeg.MainActivity">
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/encode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fileEncode" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/decode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fileDecode" />
+
+    <Button
+        android:id="@+id/showR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW RAW" />
+
+    <Button
+        android:id="@+id/showD"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW DECODE" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/showE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW ENCODE" />
+
+    <Button
+        android:id="@+id/split"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SPLIT" />
+    <Button
+        android:id="@+id/merge"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MERGE" />
+    <Button
+        android:id="@+id/compress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMPRESS"/>
+
+    <Button
+        android:id="@+id/showCompress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW COMPRESS"/>
+
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+
+</LinearLayout>
