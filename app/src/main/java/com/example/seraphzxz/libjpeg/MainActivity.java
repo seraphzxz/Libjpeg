@@ -30,6 +30,7 @@ import java.util.List;
 
 /**
  * 使用 jpeglib 压缩图片
+ * 使用 jpeglib 压缩图片
  */
 
 public class MainActivity extends AppCompatActivity {
