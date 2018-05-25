@@ -28,6 +28,10 @@ import com.example.seraphzxz.libjpeg.utils.FileUtils;
 import java.io.File;
 import java.util.List;
 
+/**
+ * 使用 jpeglib 压缩图片
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     private Button encrypt, fileDecode,showE,showR,showD,split,merge;
