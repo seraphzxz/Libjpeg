@@ -30,6 +30,7 @@ import java.util.List;
 
 /**
  * 使用 jpeglib 压缩图片
+ * 使用 MD5 确保文件完整性
  */
 
 public class MainActivity extends AppCompatActivity {
